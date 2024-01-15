@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.formtitle{
+    @apply text-lg font-bold;
+}
+
+.formsub{
+    @apply text-sm text-zinc-600 font-semibold;
+}
+
+.form-select{
+    @apply border w-full p-3 rounded-lg text-zinc-600 text-sm font-medium outline-none;
+}
+
+.btn{
+    @apply  py-1.5 px-5 rounded-md text-white capitalize text-sm font-medium shadow-md ;
+}
